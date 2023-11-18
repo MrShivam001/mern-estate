@@ -19,7 +19,7 @@ const listingSchema=new mongoose.Schema(
             type:Number,
             required:true,
         },
-        discountedPrice:{
+        discountPrice:{
             type:Number,
             required:true,
         },
@@ -51,7 +51,7 @@ const listingSchema=new mongoose.Schema(
             type:Array,
             required:true,
         },
-        useRef:{
+        userRef:{
             type:String,
             required:true,
         },
